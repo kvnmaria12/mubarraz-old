@@ -1,0 +1,32 @@
+.testimonials-header-main {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.testimonials-header {
+  margin: 0 auto;
+}
+
+.testimonials-header > h6 {
+  color: #ffb109;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.testimonials-header > h3 {
+  font-size: 30px;
+  line-height: 1.3em;
+}
+
+.testimonials-header > span {
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+  background-color: #d7b65d;
+}
+
+.testimonial-main {
+  background-color: #171926 !important;
+}

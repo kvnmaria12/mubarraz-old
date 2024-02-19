@@ -1,0 +1,97 @@
+.services-page-our-services {
+  margin-top: 100px;
+}
+
+.services-page-our-services-header {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.services-page-our-services-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.services-page-our-services-header h2 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid #ffc815;
+}
+
+.services-page-our-services-header p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.services-page-our-services-value-service {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px;
+  margin-top: 40px;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.services-page-our-services-value-service button {
+  padding: 10px 12px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.services-page-our-services-value-service button {
+  transition: transform 0.5s ease;
+}
+
+.services-page-our-services-value-service button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1030px) {
+  .services-page-our-services-buttons {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .services-page-our-services-buttons {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .services-page-our-services-header {
+    width: 100%;
+  }
+
+  .services-page-our-services-buttons {
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  .services-page-our-services-buttons button {
+    font-size: 18px;
+  }
+
+  .services-page-our-services-content-button-2 {
+    width: 100%;
+    display: grid;
+    padding: 10px;
+  }
+
+  .services-page-our-services-value-service {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,34 @@
+.job-openings-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.job-openings-list-1 {
+  padding: 40px;
+}
+
+.job-openings-list-header {
+  background-color: #03045e;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border-bottom: 3px solid #f77f00;
+  /* display: inline-block; */
+}
+
+.job-openings-list-content {
+  margin-top: 15px;
+  background-color: #fafafa;
+  display: inline-block;
+}
+
+.job-openings-list-content ul li {
+  padding: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .job-openings-list {
+    grid-template-columns: 1fr;
+  }
+}

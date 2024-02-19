@@ -1,0 +1,297 @@
+.our-services-home-page {
+  margin-top: 100px;
+}
+
+/* Content - 1 */
+
+.our-services-card-container-image-main-1 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-1 {
+  background-image: url(/images/Home/SuccessStoriesBackGround/SuccessStoriesBackGround.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-3 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-3:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-1 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+.our-service-home-page-container {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+/* content - 2  */
+
+.our-services-card-container-image-main-2 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-2 {
+  background-image: url(/images/AboutUs/Projects/offshore-oil-rig-in-sea-against-sky.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-2 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-2:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-2 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+/* content - 3 */
+
+.our-services-card-container-image-main-3 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-3 {
+  background-image: url(/images/AboutUs/Projects/petrochemical-complex.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-3 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-3:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-3 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+/* content - 4 */
+
+.our-services-card-container-image-main-4 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-4 {
+  background-image: url(/images/AboutUs/Mission/MissionImage1.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-4 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-4:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-4 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+/* content -5 */
+.our-services-card-container-image-main-5 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-5 {
+  background-image: url(/images/AboutUs/Mission/MissionImage2.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-5 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-5:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-5 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+/* content 6 */
+
+.our-services-card-container-image-main-6 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.our-services-card-container-image-6 {
+  background-image: url(/images/AboutUs/Mission/MissionImage3.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-6 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-6:hover {
+  transform: scale(1.1);
+}
+
+.our-services-card-container-image-content-6 {
+  /* position: absolute; */
+  /* top: 5%; */
+  /* padding: 15px; */
+  padding-top: 0;
+}
+
+.our-service-home-page-container h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+  color: black;
+}
+
+.our-service-home-page-container h2 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid #f77f00;
+  font-weight: 600;
+}
+
+.our-service-home-page-container p {
+  font-size: 18px;
+  margin-top: 15px;
+  /* opacity: 0.8; */
+  color: white;
+}
+
+.services-page-our-services-buttons {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.services-page-our-services-buttons button {
+  padding: 18px 16px;
+  background-color: #ffb109;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.services-page-our-services-buttons button.active {
+  border: 4px solid #ffb109;
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+
+.our-services-home-page-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+/* card-container-page-services */
+.card-home-page-services h1 {
+  font-size: 18px;
+  font-weight: 900;
+  /* margin: 20px 0; */
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+
+.our-success-stories-container-right {
+  width: 98vw;
+}
+
+.card-home-page-services p {
+  font-size: 16px;
+  /* opacity: 0.8; */
+  color: black;
+}
+
+.card-home-page-services {
+  /* background: white; */
+  box-shadow: 1px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  /* padding: 35px; */
+  /* border-top: 2.5px solid #ffb109; */
+  /* border-left: 2.5px solid #ffb109; */
+  position: relative;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 760px) {
+  .our-service-home-page-container {
+    width: 100%;
+  }
+
+  .our-services-home-page-card-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}

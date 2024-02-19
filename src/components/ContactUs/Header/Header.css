@@ -1,0 +1,65 @@
+.contact-us-page-header {
+  position: relative;
+}
+
+.contact-us-page-header-image {
+  background-image: url(/images/ContactUs/Header/Header.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  filter: brightness(70%);
+}
+
+.contact-us-page-header-content {
+  position: absolute;
+  z-index: 10000;
+  top: 35%;
+  padding-left: 20px;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.contact-us-page-header-content h3 {
+  font-size: 30px;
+  color: #ffb109;
+}
+
+.contact-us-page-header-content h1 {
+  display: inline-block;
+  font-size: 80px;
+  line-height: 1.1;
+  color: white;
+  margin-top: 15px;
+  border-bottom: 2px solid #f77f00;
+}
+
+.contact-us-page-header-content p {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1030px) {
+  .contact-us-page-header-content {
+    top: 0%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .contact-us-page-header-content {
+    top: 35%;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-us-page-header-content h1 {
+    font-size: 46px;
+  }
+
+  .contact-us-page-header-image {
+    height: 55vh;
+  }
+}

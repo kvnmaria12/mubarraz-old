@@ -1,0 +1,120 @@
+.projects-abouts-us-page {
+  margin-top: 130px;
+  margin-bottom: 150px;
+}
+
+.projects-about-us-page-header {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.projects-about-us-page-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.projects-about-us-page-header h2 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid #ffc815;
+}
+
+.projects-about-us-page-header p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+.projects-about-us-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.projects-about-us-page-projects {
+  margin: 20px;
+  box-shadow: 0 2px 10px;
+}
+
+.projects-about-us-page-project-content {
+  padding: 20px;
+}
+
+.projects-about-us-page-project-content h1 {
+  font-size: 25.5px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.projects-about-us-page-project-content p {
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.8;
+  line-height: 1.5em;
+  margin-bottom: 25px;
+}
+
+.projects-about-us-page-project-content button {
+  padding: 10px 12px;
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.projects-about-us-container {
+  overflow: hidden;
+}
+
+.projects-about-us-page-project-1-img {
+  overflow: hidden;
+}
+.projects-about-us-page-project-2-img {
+  overflow: hidden;
+}
+.projects-about-us-page-project-3-img {
+  overflow: hidden;
+}
+
+.projects-about-us-container img {
+  transition: transform 0.5s ease;
+}
+
+.projects-about-us-container img:hover {
+  transform: scale(1.1);
+}
+
+.projects-about-us-container button {
+  transition: transform 0.5s ease;
+}
+
+.projects-about-us-container button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 780px) {
+  .projects-about-us-container {
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+  }
+
+  .projects-about-us-page-projects {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .projects-about-us-page-header {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .projects-about-us-container {
+    grid-template-columns: 1fr;
+  }
+}

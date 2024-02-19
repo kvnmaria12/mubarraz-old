@@ -1,0 +1,133 @@
+.projects-page-photo-gallery {
+  height: 100%;
+  width: 100%;
+  margin-top: 25px;
+  padding: 50px;
+}
+
+.project-page-photo-gallery-header {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.project-page-photo-gallery-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.project-page-photo-gallery-header h3 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid #ffc815;
+}
+
+.project-page-photo-gallery-header p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.photo-gallery-zoom {
+  padding: 20px;
+}
+
+.single-photo-gallery {
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+  /* display: inline-flex;
+  gap: 20px;
+  padding: 10px;
+  overflow: hidden; */
+
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 2px solid black;
+  padding-top: 35px;
+  background-color: gainsboro;
+}
+
+.slider-photo-gallery {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s infinite linear;
+}
+
+.slider-photo-gallery:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.photo-gallery {
+  height: 200px;
+  width: 200px;
+  /* display: flex;
+  align-items: center; */
+  padding: 15px;
+  perspective: 100px;
+}
+
+.photo-gallery img {
+  width: 100%;
+  transition: transform 1s;
+  border: 2px solid black;
+}
+
+.photo-gallery img:hover {
+  /* transform: translateZ(20px); */
+  transform: scale(1.3);
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.photo-gallery {
+  height: 400px;
+  width: 400px;
+}
+
+.photo-galley-img {
+  width: 100%;
+}
+
+.project-name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 760px) {
+  .project-page-photo-gallery-header {
+    width: 100%;
+  }
+
+  .single-photo-gallery {
+    grid-template-columns: 1fr !important;
+  }
+}

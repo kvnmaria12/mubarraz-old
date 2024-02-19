@@ -1,0 +1,114 @@
+.mission {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mission-container {
+  display: flex;
+}
+
+.each-slide {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+}
+
+.each-slide > div {
+  width: 75%;
+}
+
+.each-slide > div img {
+  width: 100%;
+  /* height: 100%; */
+  height: 540px;
+  object-fit: cover;
+}
+
+.each-slide p {
+  width: 25%;
+  font-size: 1em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
+}
+
+.mission-icon {
+  font-size: 62px;
+  color: gold;
+}
+
+.mission-container-left {
+  width: 50%;
+}
+
+.mission-container-right-top {
+  padding: 80px;
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.mission-container-right-bottom {
+  padding: 80px;
+  background-color: yellow;
+  padding-bottom: 60px;
+}
+
+.mission-container-right h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.react-slideshow-fadezoom-wrapper {
+  height: 100%;
+}
+
+.mission-container-right p {
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 2.1;
+}
+
+@media screen and (max-width: 1025px) {
+  .each-slide > div img {
+    height: 100%;
+  }
+
+  .mission-container {
+    padding: 20px;
+  }
+
+  .react-slideshow-fadezoom-wrapper .react-slideshow-fadezoom-images-wrap {
+    height: 205vh;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .mission-container {
+    flex-direction: column;
+  }
+
+  .mission-container-left {
+    width: 100%;
+    padding: 20px;
+    /* padding: 45px; */
+  }
+
+  .mission-icon {
+    margin: 0 auto;
+  }
+
+  .mission-container-right-top {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .react-slideshow-fadezoom-wrapper .react-slideshow-fadezoom-images-wrap {
+    height: 100%;
+  }
+}

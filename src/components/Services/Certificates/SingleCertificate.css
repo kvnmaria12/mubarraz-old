@@ -1,0 +1,41 @@
+.cerfiticate-header {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cerfiticate-header h1 {
+  margin-top: 15px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.certificates-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.single-certificate {
+  border: 2px solid crimson;
+  box-shadow: 10px -12px 47px -28px rgba(0, 0, 0, 0.75);
+}
+
+.single-certificate h2 {
+  text-align: center;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 760px) {
+  .cerfiticate-header {
+    width: 100%;
+  }
+
+  .certificates-main {
+    grid-template-columns: 1fr;
+  }
+}

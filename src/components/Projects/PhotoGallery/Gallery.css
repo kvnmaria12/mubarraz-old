@@ -1,0 +1,18 @@
+.lg-react-element {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 45px;
+  border: 2px solid crimson;
+  margin: 30px;
+}
+
+.lg-react-element img {
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 760px) {
+  .lg-react-element {
+    grid-template-columns: 1fr;
+  }
+}

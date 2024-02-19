@@ -1,0 +1,149 @@
+.our-success-stories-img {
+  background-image: url(/images/Home/SuccessStoriesBackGround/SuccessStoriesBackGround.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10vh;
+  filter: brightness(20%);
+}
+
+.our-success-stories-home-page {
+  position: relative;
+}
+
+.our-success-stories-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  z-index: 100000;
+  top: 20%;
+  gap: 20px;
+  width: 100%;
+}
+
+.our-success-stories-container-left {
+  padding: 0 20px;
+  /* width: 30%; */
+  color: white;
+}
+
+.our-success-stories-container-left h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #f77f00;
+}
+
+.our-success-stories-container-left h2 {
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid gold;
+  margin-bottom: 20px;
+}
+
+.our-success-stories-container-left p {
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+.our-success-stories-parts {
+  padding: 20px;
+  width: 300px;
+
+  box-shadow: 10px -12px 47px -28px rgba(0, 0, 0, 0.75);
+  /* border-left: 3px solid gold; */
+  /* border-top: 3px solid gold; */
+  background-color: white;
+}
+
+.our-success-stories-parts h3 {
+  font-size: 24px;
+  color: #ffc815;
+  margin-top: 10px;
+}
+
+.our-success-stories-parts h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin-top: 25px;
+}
+
+.our-success-stories-container-scroll-right-to-left {
+  padding: 10px 20px 10px 10px;
+  padding-right: 20px;
+  display: flex;
+  gap: 25px;
+  animation: rightToLeft 25s infinite linear;
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .our-success-stories-container {
+    flex-direction: column;
+    top: 5%;
+    /* left: 10%; */
+    padding: 30px;
+  }
+
+  .our-success-stories-img {
+    height: 125vh;
+  }
+
+  .our-success-stories-container-right {
+    width: 100%;
+  }
+  .our-success-stories-container-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .our-success-stories-container-scroll-right-to-left {
+    animation: none;
+  }
+
+  .our-success-stories-container-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .our-success-stories-container {
+    top: 3%;
+    flex-direction: column;
+  }
+
+  .our-success-stories-container-scroll-right-to-left {
+    flex-direction: column;
+  }
+
+  .our-success-stories-img {
+    height: 235vh;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .our-success-stories-img {
+    height: 300vh;
+  }
+}
+
+@media screen and (min-width: 385px) {
+  .our-success-stories-img {
+    height: 100vh;
+  }
+}

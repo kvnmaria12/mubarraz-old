@@ -1,0 +1,69 @@
+.apply-for-job {
+  width: 50%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.apply-for-job h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+  margin-bottom: 50px;
+}
+
+.job-openings-form-main {
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  /* border: 2px solid crimson; */
+}
+
+.job-openings-form {
+  padding: 10px;
+}
+
+.job-openings-form input {
+  display: block;
+  padding: 15px;
+  border: 2px solid #ffa200;
+  margin: 10px;
+  width: 100%;
+}
+
+.job-openings-form input[type='file'] {
+  border: none;
+}
+
+.job-openings-form textarea {
+  border: 2px solid #ffa200;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.job-openings-form button {
+  padding: 16px 18px;
+  background-color: #f77f00;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 780px) {
+  .job-openings-form-main {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .job-openings-form textarea {
+    width: 20em;
+  }
+
+  .apply-for-job {
+    width: 100%;
+  }
+}

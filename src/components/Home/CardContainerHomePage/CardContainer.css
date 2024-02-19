@@ -1,0 +1,230 @@
+.card-container-home-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px;
+  margin-top: 40px;
+  gap: 20px;
+  margin-top: 100px;
+  /* padding-right: 0; */
+}
+
+.card-home-page {
+  /* background: white; */
+  box-shadow: 1px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  /* padding: 35px; */
+  /* border-top: 2.5px solid #ffb109; */
+  /* border-left: 2.5px solid #ffb109; */
+  position: relative;
+  cursor: pointer;
+  /* border-radius: 10px; */
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-main-1 {
+  position: relative;
+  /* overflow: hidden; */
+  background-color: snow;
+}
+
+.card-container-image-1 {
+  background-image: url(/images/ContactUs/Header/Header.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-1 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-1:hover {
+  transform: scale(1.1);
+}
+
+.card-container-image-content-1 {
+  /* position: absolute; */
+  /* top: 10%; */
+  padding: 15px;
+}
+
+/* content -2 */
+.card-container-image-main-2 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.card-container-image-2 {
+  background-image: url(/images/AboutUs/Header/Header.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-2 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-2:hover {
+  transform: scale(1.1);
+}
+
+.card-container-image-content-2 {
+  /* position: absolute; */
+  /* top: 10%; */
+  padding: 15px;
+}
+
+/* content -3 */
+
+.card-container-image-main-3 {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.card-container-image-3 {
+  background-image: url(/images/AboutUs/Projects/oil-refinery-factory-at-the-cloudy-sky-petrochemical-plant-petroleum.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100000;
+  height: 60vh;
+  filter: brightness(10%);
+}
+
+.card-container-image-3 {
+  transition: transform 0.5s ease;
+}
+
+.card-container-image-3:hover {
+  transform: scale(1.1);
+}
+
+.card-container-image-content-3 {
+  /* position: absolute; */
+  /* top: 10%; */
+  padding: 15px;
+}
+
+/* .projects-about-us-container img:hover {
+} */
+
+.card-home-page h1 {
+  font-size: 26px;
+  font-weight: 900;
+  /* margin: 20px 0; */
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  color: black;
+}
+
+.card-home-page p {
+  font-size: 16px;
+  /* opacity: 0.8; */
+  color: black;
+}
+
+span.card-container-icon {
+  /* position: absolute; */
+  /* background: yellow; */
+  /* background: #171926; */
+  border-radius: 50px;
+  height: 50px;
+  height: 70px;
+  /* padding: 14px; */
+  /* top: 0%; */
+  /* transform: translate(-0%, -50%); */
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card-container-icon-svg {
+  color: orangered;
+  font-size: 64px;
+}
+
+/* card container flip */
+
+.card-container-flip-main {
+  position: relative !important;
+  /* background-color: rgb(23, 25, 38); */
+  /* background-color: #0077b6; */
+  /* background-color: #48cae4; */
+  background-color: #003566;
+  height: 350px;
+  /* width: 350px; */
+}
+
+.the-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  /* background: yellow; */
+}
+
+.the-card:hover {
+  transform: rotateY(180deg);
+}
+
+.the-front-card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  /* background-color: crimson; */
+  color: black;
+  top: 25%;
+}
+
+.the-front-card h1 {
+  color: white;
+}
+
+.the-back-card h1 {
+  color: black;
+}
+
+.the-back-card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  background-color: gainsboro;
+  color: red;
+  transform: rotateY(180deg);
+  /* padding: 10px; */
+  /* margin-top: 0; */
+  padding: 15px;
+}
+
+.card-container-home-page-image {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .card-container-home-page-image {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-container-home-page {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .card-container-home-page {
+    padding: 10px;
+  }
+}

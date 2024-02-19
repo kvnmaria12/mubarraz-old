@@ -1,0 +1,46 @@
+.upload {
+  display: grid;
+  place-items: center;
+  border: 2px solid crimson;
+}
+
+.upload h1 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.submit-form {
+  margin-top: 50px;
+}
+
+.submit-form input {
+  display: block;
+  border: 2px solid black;
+  margin: 25px;
+}
+
+.submit-form .btn {
+  background-color: crimson;
+  color: black;
+  width: 50%;
+  margin: 0 auto;
+  padding: 12px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-form label {
+  display: block;
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.submit-form select {
+  background-color: lightgray;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Home Select */

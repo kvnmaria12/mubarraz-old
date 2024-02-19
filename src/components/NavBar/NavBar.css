@@ -1,0 +1,361 @@
+.nav-bar-container {
+  position: relative;
+  position: absolute;
+  z-index: 11111111;
+  /* width: 100vw; */
+  width: 100%;
+  /* margin-top: 20px; */
+  /* background-color: #171926; */
+}
+
+.nav-bar-container.mobile-layout {
+  background-color: #171926;
+}
+
+.nav-bar {
+  /* background: #171926; */
+  /* background-color: #dadada; */
+  /* background-color: #f5f5f5; */
+  /* background-color: transparent; */
+  /* background-color: #f5f5f5; */
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  /* box-shadow: -3px 12px 11px -10px rgba(0, 0, 0, 0.75); */
+  position: relative;
+}
+
+.muboins-logo-image {
+  /* height: 130px;  */
+  height: 110px;
+  /* width: 140px; */
+  width: 120px;
+  /* padding: 15px 0; */
+  /* border-radius: 50%; */
+  margin-left: 25px;
+  /* margin-left: 25px; */
+}
+
+.muboins-logo-h1 {
+  /* color: #ffb109; */
+  color: black;
+  /* color: white; */
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.uae-chauffuer-logo > p {
+  color: white;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.nav-elements {
+  position: relative;
+  margin-top: 10px;
+  /* background-color: gainsboro; */
+  padding: 15px;
+}
+
+.contact-us-icons {
+  position: absolute;
+  left: 75%;
+}
+
+.nav-elements > ul {
+  display: flex;
+  /* height: 100px; */
+  align-items: center;
+  /* margin-top: 34px; */
+}
+
+.nav-elements ul > li {
+  list-style: none;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* flex-direction: column; */
+}
+
+.span-icon {
+  padding: 10px;
+  background-color: #f77f00;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.span-icon a {
+  color: black !important;
+}
+
+.nav-elements ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  transition: all 0.1s ease-out;
+  /* color: #ffb109; */
+  color: black;
+  /* color: white; */
+  text-transform: uppercase;
+}
+
+.nav-elements ul li a:hover {
+  /* color: #fff; */
+  /* color: #142280; */
+  /* color: black; */
+  border-bottom: 3px solid #ffb109;
+  /* transition: all 2s ease-in; */
+}
+
+.mobile-menu-icon {
+  font-size: 1.6rem !important;
+  background-color: transparent !important;
+  color: crimson !important;
+  border: none !important;
+  position: absolute !important;
+  top: 40% !important;
+  left: 90% !important;
+  cursor: pointer !important;
+  display: none !important;
+}
+
+.mobile-menu-icon.close {
+  font-size: 2rem !important;
+  top: 15% !important;
+  left: 89% !important;
+  cursor: pointer !important;
+}
+.nav-social-media-icons {
+  margin-top: 30px;
+}
+
+/* nav-elements-overlay */
+.nav-elements-mobile-overlay-layout {
+  width: 100%;
+  color: gold;
+}
+
+/* hover services */
+
+.hover-services {
+  /* height: 400px; */
+  /* width: 30%; */
+  /* background-color: white; */
+  background-color: transparent;
+  position: absolute;
+  z-index: 999999999;
+  top: 60%;
+  left: 45%;
+  /* border-top: 3px solid #ffb109; */
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  transition: all ease-in 1s;
+}
+
+.hover-services {
+  display: flex;
+}
+
+.servies-detail {
+  background-color: #f0f3f6;
+  color: black;
+}
+
+.services-list-item {
+  /* background-color: #171926; */
+  margin: 10px;
+  cursor: pointer;
+
+  /* padding: 15px; */
+  font-weight: 600;
+  /* color: #ffb109; */
+  /* color: black; */
+  color: white;
+}
+
+.services-list-item h2 {
+  color: black;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-list-1.active {
+  /* background-color: black; */
+  /* border: 3px solid #ffb109; */
+  color: #ffb109;
+  border-bottom: 3px solid #ffb109;
+  transition: all ease 0.2s;
+
+  /* color: #f56f22; */
+}
+
+.services-list-2.active {
+  /* background-color: black; */
+  border-bottom: 3px solid #ffb109;
+  color: #ffb109;
+  /* border-bottom: 3px solid black; */
+  /* color: #f56f22; */
+  transition: all ease 0.2s;
+}
+
+.services-list-3.active {
+  /* background-color: black; */
+  /* border: 3px solid #ffb109; */
+  color: #ffb109;
+  /* color: #f56f22; */
+  border-bottom: 3px solid #ffb109;
+}
+
+.single-stop-service-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  gap: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.specialized-service-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  gap: 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*  */
+.contact-us {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  gap: 5px;
+}
+
+.nav-elements {
+  margin-top: 20px;
+}
+
+/* text infinite scrolling */
+
+.container {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  overflow: hidden;
+  width: 60%;
+}
+
+.scroll {
+  white-space: nowrap;
+}
+
+.right-to-left p {
+  font-size: 18px;
+  /* color: #ffb109; */
+  /* color: white; */
+  color: black;
+  /* color: white; */
+  display: block;
+}
+
+.right-to-left {
+  animation: rightToLeft 10s infinite linear;
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* .contact-us {
+    display: none;
+  } */
+
+  .nav-bar {
+    justify-content: flex-start !important;
+  }
+
+  .nav-elements {
+    display: none !important;
+  }
+
+  .nav-social-media-icons {
+    display: none;
+  }
+
+  .sevice-down-arrow {
+    display: none;
+  }
+
+  .nav-bar.mobile-layout {
+    flex-direction: column !important;
+    height: 75vh;
+    transition: all 4s ease-in !important;
+    z-index: 999999999;
+    /* height: 100vh; */
+    /* background-color: #171926; */
+  }
+  .nav-elements.mobile-layout {
+    display: block !important;
+    margin-bottom: 50px !important;
+    transition: all 4s ease-in !important;
+  }
+
+  .nav-elements.mobile-layout ul {
+    flex-direction: column !important;
+    margin-left: 28px;
+    transition: all 4s ease-in !important;
+  }
+
+  .nav-elements.mobile-layout ul li {
+    padding-bottom: 9px !important;
+    transition: all 4s ease-in !important;
+  }
+
+  .is-services-clicked-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-menu-icon {
+    display: block !important;
+  }
+
+  html:not(.no-js) [data-aos^='fade'][data-aos^='fade'] {
+    opacity: 1 !important;
+  }
+
+  .hover-services {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contact-us-icons {
+    left: 10%;
+    transform: translate(-10%);
+  }
+
+  .container {
+    display: none;
+  }
+}

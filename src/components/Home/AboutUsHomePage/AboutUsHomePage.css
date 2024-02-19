@@ -1,0 +1,151 @@
+.about-us-home-page {
+  position: relative;
+}
+
+.about-us-home-page-container {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.about-us-home-page-image-section {
+  width: 50%;
+  padding: 20px;
+}
+
+.about-us-home-page-image-section-img {
+  width: 100%;
+  /* height: 700px; */
+  /* height: 100%; */
+  height: 570px;
+}
+
+.about-us-home-page-info-section {
+  width: 50%;
+  padding: 20px;
+}
+
+.about-us-home-page-info-about-us-h2 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid yellow;
+  margin-top: 5px;
+}
+
+.about-us-home-page-info-about-us-h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  font-weight: 800;
+  padding-bottom: 25px;
+  margin-top: 10px;
+}
+
+.about-us-home-page-info-about-us-h2-part-2 {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic;
+  color: gold;
+}
+
+.about-us-home-page-info-about-us-para-1 {
+  font-size: 16px;
+  line-height: 1.7;
+  padding-bottom: 15px;
+  opacity: 0.7;
+}
+
+.about-us-home-page-info-about-us-para-2 {
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+
+.about-us-home-page-info-button {
+  padding: 16px 18px;
+  border: none;
+  background-color: #ffc815;
+  color: black;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.about-us-home-page-info-button:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: all 0.3s ease-out;
+  background-color: black;
+  color: white;
+}
+
+.about-us-points {
+  height: 220px;
+  display: inline-block;
+  background-color: #ffc815;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  top: 15%;
+}
+
+.about-us-home-page ul {
+  padding-left: 15px;
+}
+
+.about-us-home-page ul li {
+  /* list-style: none; */
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.about-us-home-page ul li:hover {
+  color: white;
+}
+
+/* @media screen and (max-width: 1445px) {
+  .about-us-home-page-image-section-img {
+    height: 645px;
+  }
+} */
+
+@media screen and (max-width: 1025px) {
+  .about-us-home-page-image-section-img {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about-us-home-page-container {
+    flex-direction: column;
+  }
+
+  .about-us-home-page-image-section {
+    width: 100%;
+  }
+
+  .about-us-points {
+    display: none;
+  }
+
+  .about-us-home-page-info-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-us-home-page-info-about-us-h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 2550px) {
+  .about-us-home-page-image-section {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about-us-home-page-container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,81 @@
+.employment-visa {
+  position: relative;
+}
+
+.employment-visa-img {
+  background-image: url(/images/CareersPage/Header/Header.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  filter: brightness(20%);
+}
+
+.employment-visa-header-content {
+  position: absolute;
+  z-index: 10000;
+  top: 11%;
+  left: 53%;
+  padding-left: 20px;
+  width: 57%;
+  margin-top: 25px;
+  margin: 0;
+  transform: translate(-50%);
+}
+
+.employment-visa-header-content h1 {
+  display: inline-block;
+  font-size: 80px;
+  line-height: 1.1;
+  color: white;
+  margin-top: 15px;
+  border-bottom: 2px solid gold;
+  text-align: center;
+}
+
+.employment-visa-main-content {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.employment-visa-main-content h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.employment-visa-main-content p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.employment-visa-main-content ol {
+  margin-top: 25px;
+}
+
+.employment-visa-main-content ol li {
+  text-align: left;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .employment-visa-header-content {
+    top: 5%;
+    left: 34%;
+  }
+
+  .employment-visa-header-content h1 {
+    font-size: 54px;
+  }
+
+  .employment-visa-main-content {
+    width: 80%;
+  }
+}

@@ -1,0 +1,93 @@
+.careers-page-who-are-we {
+  margin-top: 150px;
+}
+
+.careers-page-who-are-we-header {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.careers-page-who-are-we-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.careers-page-who-are-we-header h2 {
+  display: inline-block;
+  font-size: 30px;
+  border-bottom: 2px solid #ffc815;
+}
+
+.careers-page-who-are-we-header p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.careers-page-who-are-we-content {
+  margin-top: 150px;
+  display: flex;
+}
+
+.careers-page-who-are-we-content-left {
+  padding: 20px;
+  width: 70%;
+}
+.careers-page-who-are-we-content-left img {
+  height: 100%;
+}
+
+.careers-page-who-are-we-content-right {
+  width: 50%;
+  padding: 30px;
+  padding-top: 0;
+}
+
+.careers-page-who-are-we-content-right h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.careers-page-who-are-we-content-right p {
+  font-size: 18px;
+  opacity: 0.8;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 780px) {
+  .careers-page-who-are-we-content {
+    flex-direction: column;
+  }
+
+  .careers-page-who-are-we-content-left {
+    width: 100%;
+  }
+
+  .careers-page-who-are-we-content-right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .careers-page-who-are-we-header {
+    width: 100%;
+  }
+
+  .careers-page-who-are-we-content {
+    flex-direction: column;
+  }
+
+  .careers-page-who-are-we-content-left {
+    width: 100%;
+  }
+
+  .careers-page-who-are-we-content-right {
+    width: 100%;
+  }
+}

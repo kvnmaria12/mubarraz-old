@@ -1,0 +1,26 @@
+.job-opening-header {
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.job-opening-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+  color: #03045e;
+}
+
+.job-opening-header p {
+  font-size: 18px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 780px) {
+  .job-opening-header {
+    width: 100%;
+  }
+}

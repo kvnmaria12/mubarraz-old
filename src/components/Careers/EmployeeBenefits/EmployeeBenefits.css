@@ -1,0 +1,53 @@
+.employee-benefits-content {
+  margin-top: 150px;
+}
+
+.employee-benefits-content-img {
+  padding: 20px;
+}
+
+.employee-benefits-content-img img {
+  width: 100%;
+}
+
+.employee-benefits-header {
+  margin: 20px auto 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-benefits-header h1 {
+  margin-top: 15px;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.employee-benefits-header ul {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+}
+
+.employee-benefits-header ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.check-mark {
+  color: #ffb109;
+}
+
+@media screen and (max-width: 760px) {
+  .employee-benefits-content {
+    margin-top: 0;
+  }
+}
